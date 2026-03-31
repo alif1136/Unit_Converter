@@ -26,18 +26,9 @@ This project uses **Provider** (`ChangeNotifier`) to manage:
 * Converted result
 
 ---
+## Screenshot
+<img width="355" height="511" alt="image" src="https://github.com/user-attachments/assets/501917a6-2880-4cf0-a0dc-e29c24433a99" />
 
-## 📂 Project Structure
-
-```
-lib/
-│
-├── main.dart              # Entry point
-├── provider/
-│   └── converter_provider.dart   # Conversion logic + state
-├── screens/
-│   └── converter_screen.dart     # UI screen
-```
 
 ---
 
