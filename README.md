@@ -1,16 +1,141 @@
-# unit_converter
+# 📱 Unit Converter App (Flutter + Provider)
 
-A new Flutter project.
+A simple and clean **Unit Converter App** built using **Flutter** and **Provider** for state management. This app allows users to convert values between different units in real-time.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+* 🔹 Convert between **Length, Weight, and Temperature**
+* 🔹 User-friendly **input field**
+* 🔹 **From / To dropdown** selection
+* 🔹 **Swap button** for quick unit switching
+* 🔹 ⚡ **Real-time conversion result**
+* 🔹 Clean and minimal **UI design**
+* 🔹 Efficient state management using **Provider**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧠 State Management
+
+This project uses **Provider** (`ChangeNotifier`) to manage:
+
+* Selected category (Length, Weight, Temp)
+* Input value
+* Selected units (From / To)
+* Converted result
+
+---
+
+## 📂 Project Structure
+
+```
+lib/
+│
+├── main.dart              # Entry point
+├── provider/
+│   └── converter_provider.dart   # Conversion logic + state
+├── screens/
+│   └── converter_screen.dart     # UI screen
+```
+
+---
+
+## 🔧 Conversion Logic
+
+### Length
+
+* Meter
+* Kilometer
+* Centimeter
+
+### Weight
+
+* Gram
+* Kilogram
+
+### Temperature
+
+* Celsius
+* Fahrenheit
+* Kelvin
+
+---
+
+## 🧪 Example
+
+**Input:**
+
+```
+Value: 10
+From: Kilometer
+To: Meter
+```
+
+**Output:**
+
+```
+10000 Meter
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
+```
+git clone https://github.com/your-username/unit-converter-app.git
+```
+
+### 2. Navigate to project
+
+```
+cd unit-converter-app
+```
+
+### 3. Install dependencies
+
+```
+flutter pub get
+```
+
+### 4. Run the app
+
+```
+flutter run
+```
+
+---
+
+## 📦 Dependencies
+
+* Flutter SDK
+* provider: ^6.0.5
+
+---
+
+## 🎯 Future Improvements
+
+* Add more units (Miles, Inches, Pounds, etc.)
+* Improve UI with animations
+* Dark mode support
+* Save conversion history
+* Add currency conversion
+
+---
+
+## 👨‍💻 Author
+
+**Alif Hamim**
+Flutter Developer (Beginner → Pro Journey 🚀)
+
+---
+
+## 📄 License
+
+This project is open-source and available for learning purposes.
+
+---
+
+⭐ If you like this project, give it a star on GitHub!
