@@ -116,17 +116,4 @@ flutter run
 
 ---
 
-## 👨‍💻 Author
 
-**Alif Hamim**
-Flutter Developer (Beginner → Pro Journey 🚀)
-
----
-
-## 📄 License
-
-This project is open-source and available for learning purposes.
-
----
-
-⭐ If you like this project, give it a star on GitHub!
